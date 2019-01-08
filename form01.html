@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Page</title>
+    </head>
+
+    <body>
+        <!-- Forms accept user input.
+           Action points to webpage to load after form is submitted. # is just a placeholder.
+           Method specifies how to send form-data.
+           Name specifies what form is sent. -->
+        <form action="#" method="POST" name="my_form">
+            <!-- type is the input type to use.
+               name is for reference. -->
+            <input type="text" name="username"><br>
+            <input type="password" name="password"><br>
+            <!-- value specifies what is sent when the option is selected.
+            If we give radio buttons different names, they won't be grouped. You'll be able to check them all. Use checkbox if multiple options are allowed. -->
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="checkbox" name="foods" value="Grapes">Grapes<br>
+            <input type="checkbox" name="foods" value="Apples">Apples<br>
+            <input type="checkbox" name="foods" value="Bananas">Bananas<br>
+            <input type="submit" value="Onwards!">
+        </form>
+    </body>
+</html>
